@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BARBER</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\BARBER\BARBER.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="banner">
+        <img src="\BARBER\Barber_Shop_img\logo.png " class="logo">
+    <div class="centre">
+        <h1>Hair Studio</h1>
+        <p>Style Your Hair Is Style Your Life</p>
+        <div class="butcentre">
+            <a href="#"><button> Find Out</button></a>
+                <a href="#"><button>Read More</button></a>
+        </div>
+    </div>
+
+
+</section>
+<div id="sidebar">
+    <ul>
+        <a href="#"> <li>HOME</li></a>
+        <a href="#"><li>FEATURES</li></a>
+        <a href="#"><li>SERVICES</li></a>
+        <a href="#"><li>TESTIMONIALS</li></a>
+        <a href="#"> <li>MEET US</li></a>
+    </ul>
+</div>
+<div id="menubtn">
+    <img src="\BARBER\Barber_Shop_img\menu.png" id="menu">
+</div>
+
+
+<script> 
+
+    var menubtn = document.getElementById("menubtn")
+    var sidebar = document.getElementById("sidebar")
+    var menu = document.getElementById("menu")
+
+    sidebar.style.right="-250px"
+    menubtn.onclick=function(){
+        if (sidebar.style.right=="-250px"){
+            sidebar.style.right="0";
+             menu.src="/BARBER/Barber_Shop_img/close.png";
+        }
+        else{
+            sidebar.style.right="-250px";
+             menu.src="/BARBER/Barber_Shop_img/menu.png";
+        }
+    }
+</script>
+</body>
+</html>
