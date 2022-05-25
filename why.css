@@ -1,0 +1,44 @@
+*{margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+:root {
+        --primary-color:rgb(156, 119, 156);
+    }
+h1{font-family: 'Kaushan Script', cursive;
+margin: 15px 0px}
+.top{margin-top:90px;
+text-align: center;
+}
+.top p{color:var(--primary-color);
+font-weight: bold;}
+.top h1{font-size:67px;
+    color:var(--primary-color);
+    }
+.left h1{color:var(--primary-color);
+    font-size: 38px;
+}
+.left div{margin: 10% 0px;
+}
+
+.bottom img{width:35%;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.bottom img:hover{width:45%;
+cursor: pointer;}
+.bottom{display: flex;
+justify-content: space-between;
+
+margin: 5% 13%;
+}
+.services{margin-top: 50px;
+    display:flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;}
+.services img{width:35%;
+    margin: 10px;
+  
+border-radius: 10px;}
